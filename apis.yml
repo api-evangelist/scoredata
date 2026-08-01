@@ -1,7 +1,29 @@
 aid: scoredata
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scoredata.png
 name: ScoreData
-description: ScoreData is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ScoreData Corporation is a Palo Alto based predictive-analytics and AI/ML
+  platform company founded in 2014 by Danny Yang, Vas Bhandarkar, Mudit Chandra
+  and Prasanta Behera. Its flagship ScoreFast platform, paired with iMaaS
+  (intelligent Models as a Service), lets cross-functional AI teams develop,
+  deploy, monitor, manage and govern machine-learning models in production
+  across Banking, Insurance and Healthcare. ScoreFast uses patented dynamic
+  machine learning that learns continuously, removing the need to manually
+  regenerate predictive models, and its applications can be deployed across
+  in-store, mobile, web, kiosk, chatbot and cloud contact-center touchpoints.
+  ScoreData is backed by 500 Global and is tracked in the API Evangelist network
+  as a portfolio-lead company awaiting a public developer/API surface.
 url: https://raw.githubusercontent.com/api-evangelist/scoredata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Predictive Analytics
+- Data Science
+- MLOps
+- Financial Services
+- Insurance
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/scoredata-domain-security.yml
 - type: Website
   url: https://scoredata.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
