@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "scoredata",
+    "captured_at": "2026-10-11T193829",
+    "source_url": "https://scoredata.com",
+    "source_type": "Website",
+    "file": "scoredata-2026-10-11T193829.png",
+    "bytes": 115929,
+    "capture": "playwright-local"
+  }
+]
